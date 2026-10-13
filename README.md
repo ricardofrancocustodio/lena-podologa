@@ -1,5 +1,16 @@
-# Lena Podóloga
+# Lena Santos | Podóloga
 
-Site institucional da podóloga Lena.
+Landing page institucional responsiva para a podóloga Lena Santos.
 
-Este repositório será a base para o site, com informações sobre atendimentos, especialidades e agendamentos.
+## Conteúdo incluído
+
+- Apresentação de atendimentos e proposta de cuidado;
+- Área preparada para antes e depois com casos autorizados;
+- Galeria preparada para fotos reais de eventos e conferências;
+- Perguntas frequentes educativas, com dados estruturados para SEO;
+- Metadados iniciais para `lenapodologa.com.br`;
+- Navegação e layout mobile-first.
+
+## Antes de publicar
+
+Substitua os cartões demonstrativos pelas fotos reais e autorizadas, informe o canal de contato definitivo e revise os conteúdos clínicos com a profissional responsável.
