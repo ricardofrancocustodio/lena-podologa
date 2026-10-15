@@ -8,4 +8,11 @@ document.querySelectorAll('.nav a').forEach((link) => link.addEventListener('cli
   nav.classList.remove('open');
   toggle?.setAttribute('aria-expanded', 'false');
 }));
+document.querySelectorAll('[data-conversion="whatsapp"]').forEach((link) => link.addEventListener('click', () => {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', 'conversion', {
+      send_to: 'AW-869329821/nQJPCMulim8QndfDngM',
+    });
+  }
+}));
 document.getElementById('year').textContent = new Date().getFullYear();
