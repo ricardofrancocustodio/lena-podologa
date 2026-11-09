@@ -29,3 +29,6 @@ main{display:flex;flex-direction:column}#inicio{order:1}#confianca{order:2}#resu
 
 /* Local business identity in the footer */
 footer{align-items:flex-start}.footer-identity{display:flex;align-items:center;gap:18px}.footer-identity address{font-style:normal;line-height:1.65}.footer-identity address a,.footer-socials a{color:var(--teal);font-weight:800}.footer-socials{display:flex;gap:14px;flex-wrap:wrap}@media(max-width:800px){.footer-identity{width:100%;flex-wrap:wrap}.footer-socials{width:100%}}
+
+/* Official profiles in the first section */
+.hero-socials{display:flex;align-items:center;gap:9px;margin-top:25px;color:#687775;font-size:11px;font-weight:700}.hero-socials a{display:grid;place-items:center;width:29px;height:29px;border:1px solid var(--line);border-radius:50%;color:var(--teal);transition:background .2s,color .2s,transform .2s}.hero-socials a:hover{background:var(--teal);color:#fff;transform:translateY(-2px)}.hero-socials svg{width:15px;height:15px;fill:currentColor}.hero-socials svg rect,.hero-socials svg circle{fill:none;stroke:currentColor;stroke-width:2}.hero-socials svg .social-dot{fill:currentColor;stroke:none}@media(max-width:440px){.hero-socials{flex-wrap:wrap}.hero-socials>span{width:100%}}
