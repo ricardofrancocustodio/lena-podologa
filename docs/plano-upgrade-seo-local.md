@@ -33,6 +33,21 @@ Registrar antes de cada etapa, no Google Search Console e Perfil da Empresa:
 - páginas indexadas e erros de cobertura;
 - **linha de base de concorrentes:** a cada mês, repetir a busca em janela anônima, sem login, e anotar o top 3 do mapa e os orgânicos da página 1. Print isolado não é medida; a série mensal é.
 
+### Linha de base registrada — 9 de novembro de 2026
+
+Fonte: Google Search Console, pesquisa Web, período de **13 de outubro a 7 de novembro de 2026**.
+
+| Métrica | Valor |
+|---|---:|
+| Cliques | 3 |
+| Impressões | 120 |
+| CTR médio | 2,5% |
+| Posição média | 6,9 |
+
+Consultas locais já registradas: `podologa taguatinga` (1 clique e 22 impressões), `podologo taguatinga` (3 impressões), `podologia taguatinga` (2 impressões), `podologia em taguatinga` (1 impressão) e `podóloga em taguatinga` (1 impressão).
+
+O sitemap `/sitemap.xml` foi enviado em **6 de novembro de 2026**, lido em **8 de novembro** e está com status **Processado**, contendo 1 página. A propriedade `https://lenapodologa.com.br/` está verificada no Search Console.
+
 ## Etapas
 
 ### 0. Pré-requisitos de medição — fazer antes de publicar
@@ -62,6 +77,19 @@ Implementação em `index.html`:
 > Observação: não adicionar `aggregateRating` ao schema com as avaliações do Google. O Google não exibe estrelas para avaliações "próprias" de um negócio sobre si mesmo, e o dado pode ficar desatualizado. As avaliações seguem visíveis na página.
 
 ### 2. Consistência da entidade local — próxima etapa
+
+**Dados recebidos em 9 de novembro de 2026:**
+
+- Facebook: `https://www.facebook.com/lenapodologadf/`;
+- Instagram: `https://www.instagram.com/lenapodologasantos/`;
+- Perfil da Empresa no Google: `https://share.google/ruzkzlxSLoWgSWVfO`;
+- horário: segunda a sexta, 08:00–19:00; sábado, 08:00–16:30.
+
+Implementação no site nesta etapa:
+
+- inclusão dos perfis oficiais em `sameAs` e no rodapé;
+- inclusão do horário em `openingHoursSpecification`;
+- endereço e telefone completos no rodapé.
 
 - Conferir o NAP (nome, endereço e telefone) no site, Perfil da Empresa, Facebook, Instagram e diretórios.
 - Usar sempre a mesma grafia do nome comercial e o telefone `+55 61 98542-0649`.
