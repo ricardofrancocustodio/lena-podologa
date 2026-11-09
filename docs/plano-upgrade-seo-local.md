@@ -105,6 +105,8 @@ Cada página deve apontar para a home, para o agendamento e para serviços relac
 
 ### 5. Desempenho e experiência — paralelo às demais etapas
 
+**Feito em 9 de novembro de 2026:** todas as imagens usadas na página foram convertidas para WebP (14,0 MB → 2,0 MB), com as fotos de antes e depois limitadas a 720 px de largura e o logotipo em 600 px, com `width`/`height` no HTML. Os arquivos PNG/JPEG originais continuam na pasta; o PNG do logotipo segue em uso no Open Graph e no schema, que não dependem de WebP. Falta medir no PageSpeed Insights (mobile) e avaliar `srcset` e AVIF.
+
 - As imagens da seção "Trajetória" são PNGs de até 1,1 MB cada, e a pasta `assets` pesa 14 MB. Converter para WebP/AVIF, redimensionar para a largura exibida e manter `loading="lazy"`. Isso melhora o LCP em celular, que é onde a maioria das buscas locais acontece.
 - Adicionar `width` e `height` nas imagens para evitar mudança de layout.
 - Revisar o texto `alt` das imagens de antes e depois (hoje "Antes do atendimento, caso 1") para descrever o tratamento, sem expor dados do paciente.
