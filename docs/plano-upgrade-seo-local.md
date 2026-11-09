@@ -103,7 +103,7 @@ Implementação no site nesta etapa:
 
 Criar páginas realmente úteis, com conteúdo próprio, indicação de quando procurar atendimento, limites de atuação, FAQ e CTA:
 
-1. `unha-encravada-taguatinga`;
+1. `unha-encravada-taguatinga` — **concluída em 9 de novembro de 2026**;
 2. `calosidades-podologa-taguatinga`;
 3. `cuidados-pes-diabeticos-taguatinga`.
 
