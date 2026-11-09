@@ -15,6 +15,20 @@ document.querySelectorAll('[data-conversion="whatsapp"]').forEach((link) => link
     });
   }
 }));
+const answerOptions = document.querySelectorAll('.answer-option');
+const answerTitle = document.querySelector('[data-answer-title-display]');
+const answerText = document.querySelector('[data-answer-text-display]');
+answerOptions.forEach((option) => option.addEventListener('click', () => {
+  answerOptions.forEach((item) => {
+    const isActive = item === option;
+    item.classList.toggle('is-active', isActive);
+    item.setAttribute('aria-selected', String(isActive));
+  });
+  if (answerTitle && answerText) {
+    answerTitle.textContent = option.dataset.answerTitle;
+    answerText.textContent = option.dataset.answerText;
+  }
+}));
 const comparisonTrack = document.querySelector('[data-comparison-track]');
 const comparisonStatus = document.querySelector('[data-comparison-status]');
 const comparisonPrevious = document.querySelector('[data-comparison-prev]');
