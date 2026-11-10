@@ -44,6 +44,7 @@ export const spokesProdutos = [
     hub: R,
     group: 'Pomadas e sprays',
     short: 'Pomada anti-inflamatória',
+    title: 'Pomada Anti-inflamatória para Unha Inflamada | Lena Santos',
     h1: 'Qual pomada anti-inflamatória é indicada para *unhas inflamadas?*',
     lead: 'Pomadas com corticoide podem reduzir a vermelhidão sem tratar a causa e até esconder uma infecção. Uso em pele machucada deve ser decidido por médico.',
     teaser: 'O que uma pomada com corticoide faz, e por que ela pode esconder o problema.',
