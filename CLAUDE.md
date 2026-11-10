@@ -6,7 +6,7 @@ Site estático da podóloga Lena Santos (https://lenapodologa.com.br), Taguating
 
 - `index.html`: home (serviços, tabela de valores 2026, antes e depois, avaliações, FAQ, localização).
 - `unha-encravada-taguatinga/`: página de serviço (pilar do silo de unhas).
-- `blog/index.html` e `blog/<slug>/index.html`: blog por pergunta de busca (silos em `docs/blog-silos.md`).
+- `blog/index.html` e `blog/<slug>/index.html`: blog por pergunta de busca (silos em `docs/blog-silos.md`). Gerados por `node tools/build-blog.mjs` a partir de `tools/content/`; edite o gerador ou o conteúdo, não o HTML (exceto `blog/sobre-lena-santos/`, que é manual).
 - `styles.css` (global), `blog.css` (blog), `service-page.css` (página de serviço), `script.js` (menu, carrossel, conversão WhatsApp, ano do rodapé).
 - `404.html`, `robots.txt`, `sitemap.xml`, `site.webmanifest`, `favicon.ico`, `vercel.json`.
 - `assets/`: logo, favicons, `og-image.jpg` (1200x630), fotos em `.webp`. Mantenha o `.webp` como arquivo servido.

@@ -17,6 +17,7 @@ desktop.ini
 # Deploy and tooling state
 .vercel
 .qodo/
+.playwright-mcp/
 .claude/settings.local.json
 
 # Design source files not served by the site
