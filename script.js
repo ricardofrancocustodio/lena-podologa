@@ -58,4 +58,5 @@ if (comparisonTrack && comparisonStatus && comparisonPrevious && comparisonNext)
   window.addEventListener('resize', updateComparisonControls);
   updateComparisonControls();
 }
-document.getElementById('year').textContent = new Date().getFullYear();
+const yearEl = document.getElementById('year');
+if (yearEl) yearEl.textContent = new Date().getFullYear();

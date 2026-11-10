@@ -8,6 +8,17 @@ build/
 # OS and editor files
 .DS_Store
 Thumbs.db
+desktop.ini
 .vscode/
+.idea/
+*.log
+*.tmp
 
+# Deploy and tooling state
 .vercel
+.qodo/
+.claude/settings.local.json
+
+# Design source files not served by the site
+*.psd
+*.ai
